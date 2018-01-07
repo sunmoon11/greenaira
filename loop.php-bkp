@@ -1,0 +1,91 @@
+<?php
+/**
+ * Main loop for displaying blog posts
+ *
+ */
+ 
+  function short_excerpt($limit) {
+
+  $content = get_the_content();
+  //$content = strip_tags($content);
+  //$content=strip_shortcodes($content);
+  //$pad="";
+
+  
+
+  if(strlen($content) <= $limit) {
+
+ echo $content;
+
+  } else {
+
+ $content = substr($content, 0, $limit); //. $pad;
+
+ echo '<div>'.$content."..."."<a style='text-decoration: none;
+    font-size: 14px;
+    color: #FB6D48 !important;' class='more-link' href='".get_the_permalink()."'> <strong>Continue Reading</strong></a></div>" ;
+
+  }
+
+}
+?>
+
+<?php appthemes_before_blog_loop(); ?>
+
+<?php if ( have_posts() ) : ?>
+
+    <?php while ( have_posts() ) : the_post() ?>
+    
+        <?php appthemes_before_blog_post(); ?>
+
+        <div <?php post_class('shadowblock_out'); ?> id="post-<?php the_ID(); ?>">
+`
+            <div class="shadowblock">
+
+                
+                
+                <div class="entry-content" style="height:auto !important">
+                    <?php if ( has_post_thumbnail() ) the_post_thumbnail('blog-thumbnail'); ?>
+                    <h1 class="single blog"><a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h1>
+                    <?php 
+					
+					 echo short_excerpt(512);;
+					
+					// the_content( '<p>' . __( 'Continue reading &raquo;', 400 ) . '</p>' ); 
+					 
+					 
+					 ?>
+                    
+                </div>    
+                
+                <?php appthemes_after_blog_post_content(); ?>
+                <?php appthemes_before_blog_post_title(); ?>
+
+                <!--<a href="<?php the_permalink(); ?>" rel="bookmark" title="<?php the_title(); ?>" style="text-decoration: none; font-size: 18px; color: #FB6D48 !important;">Read More...</a>   -->             
+                <?php appthemes_after_blog_post_title(); ?> 
+                
+                <?php // hack needed for "<!-- more -->" to work with templates
+                    global $more;
+                    $more = 0;
+                ?>
+                
+                <?php appthemes_before_blog_post_content(); ?>
+                
+            </div><!-- #shadowblock -->
+
+        </div><!-- #shadowblock_out -->
+        
+        <?php appthemes_after_blog_post(); ?>
+
+    <?php endwhile; ?>
+    
+        <?php appthemes_after_blog_endwhile(); ?>
+
+<?php else: ?>
+    
+    <?php appthemes_blog_loop_else(); ?>
+
+<?php endif; ?>
+
+<?php appthemes_after_blog_loop();
+if ( function_exists( 'pgntn_display_pagination' ) ) pgntn_display_pagination( 'multipage' );?>

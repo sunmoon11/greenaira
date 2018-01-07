@@ -1,0 +1,699 @@
+<style>
+
+	/*  SECTIONS  */
+
+.section {
+
+	clear: both;
+
+	padding: 0px;
+
+	margin: 0px;
+
+}
+
+.group{
+
+	margin-left: 15px;
+
+}
+
+/*  COLUMN SETUP  */
+
+.col {
+
+	display: block;
+
+	float:left;
+
+	margin: 1% 0 1% 1.6%;
+
+}
+
+.col:first-child { margin-left: 0; }
+
+
+
+/*  GROUPING  */
+
+.group:before,
+
+.group:after { content:""; display:table; }
+
+.group:after { clear:both;}
+
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+
+/*  GRID OF SIX  */
+
+.span_6_of_6 {
+
+	width: 100%;
+
+}
+
+
+
+.span_5_of_6 {
+
+  	width: 83.06%;
+
+}
+
+
+
+.span_4_of_6 {
+
+  	width: 66.13%;
+
+}
+
+
+
+.span_3_of_6 {
+
+  	width: 49.2%;
+
+}
+
+
+
+.span_2_of_6 {
+
+  	width: 32.26%;
+
+}
+
+
+
+.span_1_of_6 {
+
+  	width: 15.33%;
+
+}
+
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+
+	.col {  margin: 1% 0 1% 0%; }
+
+	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+
+}
+
+.col.span_1_of_6 a {
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+}
+
+
+
+.content_res .shadowblockdir {
+
+    /*background: #f7f7f7 url("imagess/block_topbg.gif") repeat-x scroll center top;*/
+
+    border: 3px solid #e8e8e8;
+
+    border-radius: 6px;
+
+    height: 130px;
+
+    padding: 8px 15px 5px;
+
+}
+
+#ad_tag_cloud-2 {
+
+    display: none;
+
+}
+
+.paging > a {
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    padding-left: 224px;
+
+    padding-right: 224px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+.paging {
+
+    background: #fc6d26 none repeat scroll 0 0;
+
+    border: 1px solid #bbbbbb;
+
+    border-radius: 6px;
+
+    color: #fff;
+
+    margin: 0 0 4px;
+
+    padding: 8px;
+
+    text-align: center;
+
+}
+
+@media (min-width: 320px) and (max-width: 520px){
+
+    #ad_tag_cloud-2{
+
+        display: none;
+
+    }
+
+}
+
+</style>
+
+<div class="content">
+
+
+
+	<div class="content_botbg">
+
+         
+
+		<div class="content_res">
+
+		 <?php
+//
+//				if ( file_exists(STYLESHEETPATH . '/featured.php') )
+//
+//					include_once(STYLESHEETPATH . '/featured.php');
+//
+//				else
+//
+//					include_once(TEMPLATEPATH . '/featured.php');
+
+			?>
+
+        <!----banners-------------->
+
+		<div class="shadowblock_out">
+
+
+
+            <div  class="shadowblockdir showbanner" style="border-radius: 6px; height: 128px; border: 3px solid #e8e8e8; padding: 8px 11px 5px;">
+
+
+
+                <div class="sliderblockdir showbanner" >
+
+                     <div class="banner_three" style="width: 330px; float: left; margin-right: 5px;">
+
+						<?php echo do_shortcode("[pro_ad_display_adzone id=1092]"); ?>
+
+					 </div>
+
+                     <div class="banner_three hidebanner" style="width: 330px; float: left; margin-right: 5px;">
+
+						<?php echo do_shortcode("[pro_ad_display_adzone id=1093]"); ?>
+
+					 </div>
+
+                    <div class="banner_three hidebanner" style="width: 330px; float: left; margin-right: 1px;">
+
+						<?php echo do_shortcode("[pro_ad_display_adzone id=1094]"); ?>
+
+					 </div>
+
+
+
+                </div><!-- /sliderblock -->
+
+
+
+            </div><!-- /shadowblock -->
+
+
+
+        </div><!-- /shadowblock_out -->
+
+	<!----------------------------->
+
+<div class="shadowblock_out">
+
+
+
+            <div  class="shadowblockdir showbanner" style="border-radius: 6px; height: auto; border: 3px solid #e8e8e8; padding: 8px 11px 5px; text-align:justify;font-size:16px; color:#5AA5E4;">
+
+
+
+                <div class="sliderblockdir showbanner" >
+                
+  Welcome to Greenaira, we are not just a listing website. We offer various services <a href="http://greenaira.com/what-we-offer-you/">View our Services.</a>                                <br>
+Greenaira as a company is focus on helping small businesses grow in Nigeria.To take advantage of our services, speak to us today on Live Chat. 1 Advert posting = N2K, 3 Advert = N5K <a href="http://greenaira.com/rates/">view more details.</a><br>
+You can also browse through our List of Nigeria Business Directory.     <a href="http://greenaira.com/list-of-importer-and-exporters-in-nigeria/">List of importers and exporters in Nigeria.</a>         <a href="http://greenaira.com/10718/">List of Private Hospitals in Nigeria.</a>    <a href="http://greenaira.com/hotels-in-nigeria/">Hotels in Nigeria.</a>         <a href="http://greenaira.com/real-estate-companies-in-nigeria/">Real Estate Companies in Nigeria.</a>          <a href="http://greenaira.com/construction-companies-in-nigeria/">Construction Companies in Nigeria.</a>        <a href="http://greenaira.com/printing-companies-in-nigeria/">Printing Companies in Nigeria.</a>   <a href="http://greenaira.com/travel-companies-in-nigeria/">Travel Companies in Nigeria.</a>   <a href="http://greenaira.com/list-of-gift-shops-in-nigeria/">List of Gift Shops in Nigeria.</a>              <a href="http://greenaira.com/list-car-dealers-lagos-nigeria/">List of Gift Shops in Nigeria.</a>              <a href="http://greenaira.com/list-car-dealers-lagos-nigeria/">List of Car Dealers in Lagos Nigeria.</a>       <a href="http://greenaira.com/top-selling-products-nigeria/">Top Selling Products in Nigeria.</a>           <a href="http://greenaira.com/blog/page/4/">View more Business Listing.</a>                                  
+ 
+
+                </div><!-- /sliderblock -->
+
+
+
+            </div><!-- /shadowblock -->
+
+
+
+        </div>
+		<div class="shadowblock_out">
+
+<h2 class="BrowseByCategories">Browse By Categories</h2>
+
+            <div class="shadowblockdir" style="border-radius: 6px; height: auto; border: 3px solid #e8e8e8; padding: 1px 13px 21px;">
+
+
+
+                <div class="sliderblockdir" >
+
+					<div class="section group">
+                    
+                  <?php   $ad_cats = get_categories('orderby=name&order=asc&hierarchical=1&show_count=1&use_desc_for_title=0&hide_empty=0&depth=1
+ &parent=0&number=&title_li=&taxonomy='.APP_TAX_CAT);
+
+//sprint_r($ad_cats);
+
+ 
+ $new_ads_cats = array_chunk($ad_cats, 7) ;
+ 
+   foreach($new_ads_cats as $ad_cat){ ?>
+                   
+                    
+
+						<div class="col span_1_of_6">
+
+						    <ul>
+                            <?php  foreach($ad_cat as $c ){
+								
+					 $variable = get_option( "ad_cat".$c->term_id);
+ 
+if($variable == ''){
+	
+	$link = get_site_url().'/category/'. $c->slug ;
+	$count = $c->count ;
+	}
+	else {
+		$variable = maybe_unserialize($variable);
+
+
+		$link = $variable['link_custom'];
+		if($link == ''){
+			
+			$link = get_site_url().'/category/'. $c->slug ;
+			}	
+			
+			
+			
+			$count = $variable['count_number'];
+		if($count == ''){
+			
+			$count = $c->count ;
+			}		
+		
+		//print_r($link);
+		
+		}
+								
+$faclass  = NULL;
+
+if($c->slug == 'motors'){
+	
+	$faclass  = '<i class="fa fa-automobile fa-lg"  style="color:#ff7800;"></i>';
+	}
+	
+	if($c->slug == 'household-items'){
+	
+	$faclass  = '<i class="fa   fa-home fa-lg" style="color:#fc3781;"></i> ';
+	}
+	if($c->slug == 'sports'){
+	
+	$faclass  = '<i class="fa  fa-soccer-ball-o fa-lg"  style="color: #f2b520;"></i> ';
+	}
+	if($c->slug == 'travel'){
+	
+	$faclass  = '<i class="fa    fa-plane fa-lg" style="color: #86277f;;"></i> ';
+	}								
+		
+		if($c->slug == 'musician-nigeria-art-entertainment'){
+	
+	$faclass  = '<i class="fa   fa fa-music fa-lg" style="color: red "></i> ';
+	}								
+		
+		if($c->slug == 'building-materials'){
+	
+	$faclass  = '<i class="fa     fa fa-building fa-lg" style="color: #41d1ee  ;"></i> ';
+	}
+		if($c->slug == 'mobile-phoneshandsets'){
+	
+	$faclass  = '<i class="fa     fa-mobile-phone fa-lg" style="color: #ff7800  ;"></i> ';
+	}	
+		if($c->slug == 'home-electronics-appliances-nigeria'){
+	
+	$faclass  = '<i class="fa     fa-home fa-lg" style="color: #41d1ee  ;"></i> ';
+	}	
+	if($c->slug == 'hotels-in-lagos-abuja-nigeria'){
+	
+	$faclass  = '<i class="fa     fa-hotel fa-lg" style="color: #ff7800  ;"></i> ';
+	}	
+	if($c->slug == 'medical'){
+	
+	$faclass  = '<i class="fa     fa-medkit fa-lg" style="color: #41d1ee  ;"></i> ';
+	}	
+	if($c->slug == 'games-in-nigeria'){
+	
+	$faclass  = '<i class="fa     fa-gamepad fa-lg" style="color: #ff7800  ;"></i> ';
+	}	
+	
+									
+						 
+						 		
+								//if($c->parent  == '0'){
+								  ?>
+
+								<li style="padding-top: 3px;"><?php echo $faclass  ?> <a class="" href="<?php echo $link ?>">
+<?php echo $c->name ?></a><span style="color:#53b426">(<?php echo $count ?>)</span></li>
+ 
+						<?php }		//}?>
+							</ul>
+
+						</div>
+
+					<?php }	 ?>
+ 
+
+					</div>
+
+					
+
+                </div><!-- /sliderblock -->
+
+
+
+            </div><!-- /shadowblock -->
+
+
+
+        </div>
+
+			<?php
+
+				//if ( file_exists(STYLESHEETPATH . '/featured.php') )
+
+					//include_once(STYLESHEETPATH . '/featured.php');
+
+				//else
+
+					//include_once(TEMPLATEPATH . '/featured.php');
+
+			?>
+
+         <?php //if ( get_option('cp_home_layout') == 'directory' ) : ?>
+
+
+
+					<!--<div class="shadowblock_out">
+
+
+
+						<div class="shadowblock">
+
+
+
+							<h2 class="dotted"><?php //_e( 'Ad Categories', APP_TD ); ?></h2>
+
+
+
+							<div id="directory" class="directory <?php //if ( get_option('cp_cat_dir_cols') == 2 ) echo 'twoCol'; else echo 'Col'; ?>">
+
+
+
+								<?php //echo cp_create_categories_list( 'dir' ); ?>
+
+
+
+								<div class="clr"></div>
+
+
+
+							</div><!--/directory-->
+
+
+
+						<!--</div><!-- /shadowblock -->
+
+
+
+					<!--</div>--><!-- /shadowblock_out -->
+
+
+
+				<?//php endif; ?>
+
+
+
+			<!-- left block -->
+
+                        <div class="content_left_home">
+
+			<div class="content_left">
+
+
+
+
+
+				<div class="tabcontrol">
+
+
+
+					<ul class="tabnavig">
+
+						<li><a href="#block1"><span class="big"><?php _e( 'Just Listed', APP_TD ); ?></span></a></li>
+
+						<li><a href="#block2"><span class="big"><?php _e( 'Most Popular', APP_TD ); ?></span></a></li>
+
+						<li><a href="#block3"><span class="big"><?php _e( 'Random', APP_TD ); ?></span></a></li>
+
+					</ul>
+
+
+
+					<?php
+
+						remove_action( 'appthemes_after_endwhile', 'cp_do_pagination' );
+
+						if ( get_option('permalink_structure') == '' )
+
+							$post_type_url = add_query_arg( array( 'post_type' => APP_POST_TYPE, 'paged' => 2 ), site_url('/') );
+
+						else
+
+							$post_type_url = get_bloginfo('url').'/'.get_option('cp_post_type_permalink').'/page/2/';
+
+					?>
+
+
+
+
+
+					<!-- tab 1 -->
+
+					<div id="block1">  
+
+
+
+						<div class="clr"></div>
+
+
+
+						<div class="undertab"><span class="big"><?php _e( 'Classified Ads', APP_TD ); ?> / <strong><span class="colour"><?php _e( 'Just Listed', APP_TD ); ?></span>
+                      <span class="bottom-add-link" style="display:inline-block; margin-left:3%;
+                      color:#489cdf !important; ">    <a href="<?php echo get_the_permalink(1087); ?>">  <b style=" color:#489cdf !important; ">View Our Rates</b></a></span>
+                        
+                        </strong></span></div>
+
+
+
+						<?php
+
+							// show all ads but make sure the sticky featured ads don't show up first
+
+							$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
+							query_posts( array( 'post_type' => APP_POST_TYPE, 'ignore_sticky_posts' => 1,
+							
+							'post_per_page'=>'15', 'paged' => $paged ) );
+
+							$total_pages = max( 1, absint( $wp_query->max_num_pages ) );
+
+						?>
+
+
+
+						<?php get_template_part( 'loop', 'ad_listing' ); ?>
+
+
+
+						<?php
+
+							if ( $total_pages > 1 ) {
+
+						?>
+
+								<div class="paging"><a href="<?php echo $post_type_url; ?>"> <?php _e( 'View More Ads', APP_TD ); ?> </a></div>
+
+						<?php } ?>
+
+
+
+					</div><!-- /block1 -->
+
+
+
+
+
+					<!-- tab 2 -->
+
+					<div id="block2">
+
+
+
+						<div class="clr"></div>
+
+
+
+						<div class="undertab"><span class="big"><?php _e( 'Classified Ads', APP_TD ); ?> / <strong><span class="colour"><?php _e( 'Most Popular', APP_TD ); ?></span></strong></span></div>
+
+
+
+						<?php get_template_part( 'loop', 'featured' ); ?>
+
+
+
+						<?php
+
+							global $cp_has_next_page;
+
+							if ( $cp_has_next_page ) {
+
+								$popular_url = add_query_arg( array( 'sort' => 'popular' ), $post_type_url );
+
+						?>
+
+								<div class="paging"><a href="<?php echo $popular_url; ?>"> <?php _e( 'View More Ads', APP_TD ); ?> </a></div>
+
+						<?php } ?>
+
+
+
+						<?php wp_reset_query(); ?>
+
+
+
+					</div><!-- /block2 -->
+
+
+
+
+
+					<!-- tab 3 -->
+
+					<div id="block3">
+
+
+
+						<div class="clr"></div>
+
+
+
+						<div class="undertab"><span class="big"><?php _e( 'Classified Ads', APP_TD ); ?> / <strong><span class="colour"><?php _e( 'Random', APP_TD ); ?></span></strong></span></div>
+
+
+
+						<?php
+
+							// show all random ads but make sure the sticky featured ads don't show up first
+
+							$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
+							query_posts( array( 'post_type' => APP_POST_TYPE, 'ignore_sticky_posts' => 1, 'paged' => $paged, 'orderby' => 'rand' ) );
+
+							$total_pages = max( 1, absint( $wp_query->max_num_pages ) );
+
+						?>
+
+
+
+						<?php get_template_part( 'loop', 'ad_listing' ); ?>
+
+
+
+						<?php
+
+							if ( $total_pages > 1 ) {
+
+								$random_url = add_query_arg( array( 'sort' => 'random' ), $post_type_url );
+
+						?>
+
+								<div class="paging"><a href="<?php echo $random_url; ?>"> <?php _e( 'View More Ads', APP_TD ); ?> </a></div>
+
+						<?php } ?>
+
+
+
+					</div><!-- /block3 -->
+
+
+
+
+
+				</div><!-- /tabcontrol -->
+
+
+
+			</div><!-- /content_left -->
+
+                        </div>
+
+                        
+
+			<?php get_sidebar(); ?>
+
+
+
+
+
+			<div class="clr"></div>
+
+
+
+		</div><!-- /content_res -->
+
+
+
+	</div><!-- /content_botbg -->
+
+
+
+</div><!-- /content -->
+
